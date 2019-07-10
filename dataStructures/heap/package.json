@@ -1,7 +1,7 @@
 {
-  "name": "insertion-sort",
+  "name": "tclayton-algorithms",
   "version": "0.0.0",
-  "description": "Insertion sort implementation",
+  "description": "Implementations of various algorithms",
   "author": "Tyrel Clayton",
   "private": false,
   "repository": {
