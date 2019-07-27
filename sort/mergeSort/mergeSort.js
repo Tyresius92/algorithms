@@ -1,6 +1,6 @@
 export const merge = (leftRay, rightRay) => {
   if (!Array.isArray(leftRay) || !Array.isArray(rightRay)) {
-    throw new TypeError("input to merge must be an array");
+    throw new TypeError('input to merge must be an array');
   }
 
   let outputRay = [];
@@ -20,7 +20,7 @@ export const merge = (leftRay, rightRay) => {
 
   if (i === leftRay.length) {
     outputRay = outputRay.concat(rightRay.slice(j));
-  } else if (j === rightRay.length) {
+  } else {
     outputRay = outputRay.concat(leftRay.slice(i));
   }
 
@@ -37,7 +37,7 @@ const isValidInput = elements => {
 export const mergeSort = elements => {
   if (!isValidInput(elements)) {
     throw new TypeError(
-      "mergeSort must be called on an array of a single primitive type"
+      'mergeSort must be called on an array of a single primitive type'
     );
   }
 

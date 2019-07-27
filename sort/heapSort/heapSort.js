@@ -4,10 +4,6 @@ const isValidInput = input => {
   );
 };
 
-const parent = i => {
-  return Math.floor(i / 2);
-};
-
 const leftChild = i => {
   return 2 * i + 1;
 };
