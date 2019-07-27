@@ -4,12 +4,6 @@ const isValidInput = input => {
   );
 };
 
-const swap = (array, indexA, indexB) => {
-  const temp = array[indexA];
-  array[indexA] = array[indexB];
-  array[indexB] = temp;
-};
-
 export const countingSort = (input, maxVal) => {
   if (!isValidInput(input)) {
     throw new TypeError(

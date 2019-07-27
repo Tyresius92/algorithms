@@ -1,6 +1,10 @@
 import { Heap } from './heap';
 
 describe('Heap', () => {
+  it('can be created with no argument', () => {
+    expect(new Heap()).toBeInstanceOf(Heap);
+  });
+
   it('can be created', () => {
     expect(new Heap([])).toBeInstanceOf(Heap);
   });

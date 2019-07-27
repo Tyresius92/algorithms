@@ -27,7 +27,9 @@
   },
   "scripts": {
     "test": "jest --no-cache ./*",
+    "cover": "jest --no-cache --coverage ./*",
     "watch": "jest --no-cache --watch ./*",
+    "watchCover": "jest --no-cacshe --watch --coverage ./*",
     "lint": "eslint .",
     "lint-test": "eslint . && jest --no-cache ./* "
   },
