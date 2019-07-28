@@ -3,7 +3,7 @@ export const merge = (leftRay, rightRay) => {
     throw new TypeError('input to merge must be an array');
   }
 
-  asdfasdasdfasdflet outputRay = [];
+  let outputRay = [];
 
   let i = 0;
   let j = 0;
